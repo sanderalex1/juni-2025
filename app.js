@@ -96,10 +96,6 @@ Prøv å endre userMale til både true og false og bruk console.log for å sjekk
 at betingelsen din fungerer som den skal.
 ******************************************************************************/
 
-const userMale = true;
+const userMale = true ? "Mr." : "Mrs.";
 
-if (userMale) {
-  console.log("Mr.");
-} else {
-  console.log("Mrs.");
-}
+console.log(userMale);
